@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coco adi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="m-0 p-0">
+    <div class="w-full h-97 md:h-100  bg-no-repeat bg-center bg-cover" style="background-image: url('img/bg.png')">
+        <nav class="md:flex z-10 w-7/12 md:w-8/12 lg:w-7/12 md:justify-between bg-white shadow-xl mx-auto rounded-full relative top-6 py-2">
+            <div class="flex justify-between items-center">
+                <img src="img/title.png" class="content-center h-8 sm:h-10 md:h-12 lg:h-14">
+                <ion-icon name="menu-outline" onclick="Menu(this)" class="md:hidden block text-2xl sm:text-3xl mx-3 sm:mx-4 cursor-pointer"></ion-icon>
+            </div>
+            <h1 class="text-3xl md:text-4xl hidden md:block font-thin ">|</h1>
+                <div id="list" class="flex flex-col md:flex-row w-full md:w-auto bg-white md:bg-none md:static absolute top-2 z-[-1] md:z-auto items-center py-4 md:py-0 gap-y-2 md:gap-y-0 rounded-3xl space-x-0 md:space-x-3 lg:space-x-4 font-poppins text-xs sm:text-base md:mr-[0.625rem] lg:mr-4 xl:mr-6 md:text-base lg:text-lg opacity-0 md:opacity-100 transition-all ease-in duration-500">
+                    <a href="" class="mt-4 md:mt-0 hover:text-lime-400">Home</a>
+                    <a href="" class=" hover:text-lime-400">About Us</a>
+                    <a href="" class=" hover:text-lime-400">Product</a>
+                    <a href="" class=" hover:text-lime-400">Contact Us</a>
+                </div>
+        </nav>
+        <div class="text-white font-poppins relative top-52 left-5 lg:left-16 inline-block">
+            <h1 class="text-7xl sm:text-8xl md:text-9xl font-semibold tracking-normal md:tracking-widest">COCOADI</h1>
+            <h3 class="text-lg/6 sm:text-3xl md:text-4xl/tight lg:text-5xl font-medium">cv adi makmur permata</h3>
+            <p class="text-base/4 sm:text-xl md:text-2xl lg:text-3xl mt-5 md:mt-8 font-medium">Bring the goodness of nature into people's <br>lives by producing enviromentally friendly <br>coconut fiber products.</p>
+            <button class="py-2 sm:py-3 md:py-4 text-base sm:text-xl md:text-3xl px-3 sm:px-5 md:px-6 rounded-full bg-lime-600 mt-5 md:mt-10">Find Your Products</button>
+        </div>
+    </div>
+    <Main>
+        <span class="flex space-x-4 mt-20 ml-0 md:ml-6 lg:ml-10 2xl:ml-36 justify-center md:justify-normal">
+            <h1 class="font-poppins text-4xl sm:text-6xl md:text-7xl lg:text-8xl content-center">Get to Know Us</h1>
+            <img src="img/bia.png" class="w-14 sm:w-18 lg:w-20 xl:w-25 h-auto" alt="">
+        </span>
+        <div class="md:mt-6 flex flex-col items-center">
+            <div class="flex flex-col space-y-7 md:space-y-0 md:flex-row md:space-x-4 flex-shrink-0">
+                <div class="flex flex-col items-center">
+                    <img src="img/strip.png" class="hidden md:block md:w-96 lg:w-auto h-auto" alt="">
+                    <video controls src="img/vid.mp4" class="px-14 md:px-0 w-full md:w-80 lg:w-81 xl:w-83 h-auto mt-5 ml-0 md:ml-5 lg:ml-8 xl:ml-5 rounded-2xl"></video>
+                </div>
+                <div class="flex flex-col items-center space-y-7 md:space-y-9 lg:space-y-6 xl:space-y-28">
+                    <p class="text-justify w-full px-6 md:px-0 md:w-96 lg:w-97 xl:w-98 text-2xl md:text-lg lg:text-2xl font-poppins"><span class="ml-4">CV.</span> Adi Makmur Permata founded in 2024, located in Purwokerto Central Java Indonesia is a company engaged in processing coconut fiber. We produce processed coconut fiber product as  Cocobristle, Cocopeat, and Cocofiber under the Cocoadi Brand. Our processed products are superior products that use quality coconut fiber raw materials and have export specifications and international standardization. Supported by professional employee, we are commited to prioritizing customer satisfactionand maintaining product quality.</p>
+                    <img src="img/pot.png" class="px-6 md:px-0 md:w-96 lg:w-97 xl:w-98 h-auto rounded-lg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <hr class="bg-black h-[0.16rem] my-20 w-full">
+
+        <div class="flex flex-col space-y-20">
+            <div class="px-10">
+                <div class="flex justify-center items-center bg-center bg-no-repeat max-w-6xl mx-auto h-48 sm:h-60 md:h-72 lg:h-80 rounded-xl" style="background-image: url(img/bgovm.png);">
+                    <h1 class="text-white font-poppins font-semibold text-2xl sm:text-4xl md:text-6xl lg:text-8xl">Our Vision & Mision</h1>
+                </div>
+            </div>
+            <div class="px-10 space-y-20">
+                <div class="flex flex-col md:flex-row space-y-5 space-x-0 md:space-x-11 items-center max-w-6xl mx-auto">
+                    <h1 class="font-poppins text-8xl text-blue-700">Vision</h1>
+                    <p class="font-poppins text-xl text-justify">Bring the goodness of nature into people's lives by producing enviromentally friendly coconut fiber products.</p>
+                </div>
+                <div class="flex flex-col md:flex-row space-y-5 space-x-0 md:space-x-11 items-center max-w-6xl mx-auto">
+                    <h1 class="font-poppins text-8xl text-lime-600">Mission</h1>
+                    <ul class="font-poppins text-xl text-justify space-y-2 md:space-y-0 list-disc">
+                        <li class="">We prioritize quality and service in offering aunthentic coconut fiber products to customer.</li>
+                        <li class="">Through innovation and tecnology we always strive to produce processed coconut fiber products that are environmentally friendly and sustainable.</li>
+                        <li class="">Always prioritizes customer satisfaction when using processed coconut fiber products.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue-500 text-white py-20 px-8 mt-20">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-8xl font-bold mb-6">Our Philosophy</h1>
+                <p class="text-sm md:text-2xl">Like coconuts which have many benefits for human life, CV Adi Mahmur Permata always produces something useful and beneficial for themselves and others. Our philosophy is to create value and make a positive impact through our products and services.</p>
+            </div>
+        </div>
+        <div class="px-10">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col mt-20 space-y-20">
+                    <div class="flex items-center md:justify-between justify-center">
+                        <h1 class=" font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl ">Management</h1>
+                        <img src="img/stripb.png" class="hidden md:block md:h-5 lg:h-7 xl:h-9 w-auto" alt="">
+                    </div>
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <img src="img/o1.jpg" class="md:w-81 lg:w-96" alt="">
+                        <div class="space-y-7 my-auto md:justify-between flex flex-col p-6 border border-black rounded-xl  md:w-98 md:h-96.5 lg:h-96">
+                            <div class="space-y-1 md:space-y-2">
+                                <h1 class="font-poppins font-semibold text-5xl text-blue-800">ARIEF EKA PRASETYA</h1>
+                                <h1 class="font-poppins font-semibold text-4.5xl md:text-4xl lg:text-4.5xl">Director</h1>
+                            </div>
+                            <p class="font-poppins text-justify md:text-xl lg:text-2xl">Indonesian. Graduated from Electrical Engineering Jenderal Soedirman University Purwokerto in 2009. 15 years of experience in banking and marketing, has been director since 2024.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row-reverse justify-between">
+                        <img src="img/o2.jpg" class="md:w-81 lg:w-96" alt="">
+                        <div class="space-y-7 my-auto md:justify-between flex flex-col p-6 border border-black rounded-xl  md:w-98 md:h-96.5 lg:h-96">
+                            <div class="space-y-1 md:space-y-2">
+                                <h1 class="font-poppins font-semibold text-4xl lg:text-5xl text-blue-800">DODDY KURNIAWAN SUJANTO</h1>
+                                <h1 class="font-poppins font-semibold text-3xl sm:text-4.5xl md:text-3xl lg:text-4.5xl">COMMISSIONER</h1>
+                            </div>
+                            <p class="font-poppins text-justify md:text-xl lg:text-2xl">Indonesian. Graduated from Economy Management Wijaya Kusuma University Purwokerto in 2005. 18 years of experience in banking and marketing, has been commissioner since 2024.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="mt-20 mb-14 md:my-20">
+                <h1 class="font-poppins text-4.5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">What We Provide</h1>
+            </div>
+            <div class="flex flex-col space-y-14 md:space-y-11">
+                <div class="flex flex-col md:flex-row px-8 md:space-x-5 lg:space-x-7 items-center md:items-start">
+                    <img src="img/cocobristle.png" class="w-80 md:w-81" alt="">
+                    <div class="flex md:h-99 flex-col space-y-4 md:justify-between pt-5 max-w-2xl">
+                        <div class="font-poppins space-y-3">
+                            <h1 class="text-5xl text-lime-400 font-semibold">1.<span>COCOBRISTLE</span></h1>
+                            <p class="text-justify text-xl md:text-base lg:text-xl">Cocobristle is the longest and strongest variety of coir fiber. It is made from naturally retted busks using a defibering machine. This fiber is used for the finest and most high end application of coir fiber due to its length strength and the ease of combing them into uniform ties.</p>
+                        </div>
+                        <div class="font-poppins">
+                            <h2 class="font-medium text-blue-500 text-xl md:text-base lg:text-xl">Details:</h2>
+                            <ul class="list-disc ml-7 text-xl md:text-base lg:text-xl">
+                                <li>Material: Coconut Coir Bristle</li>
+                                <li>Color: Gold Brown</li>
+                                <li>Pattern: Raw</li>
+                                <li>Length: 25-28 cm</li>
+                                <li>Moisture: 17%</li>
+                            </ul>
+                        </div>
+                        <div class="font-poppins">
+                            <h5 class="lg:text-base md:text-xs">Produced by CV. Adi Makmur Permata. Purwokerto, Central Java, Indonesia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row px-8 md:space-x-5 lg:space-x-7 items-center md:items-start">
+                    <img src="img/cocofiber.png" class="w-80 md:w-81" alt="">    
+                    <div class="flex md:h-99 flex-col space-y-4 md:justify-between pt-5 max-w-2xl">
+                        <div class="font-poppins space-y-3">
+                            <h1 class="text-5xl text-lime-400 font-semibold">2.<span>COCOFIBER</span></h1>
+                            <p class="text-justify text-xl md:text-base lg:text-xl">Is coconut fiber which is shaped like long hair with a smooth and strong texture. It is used as a raw material for handicrafts, car seats, mattresses, ropes, and livestock pens.</p>
+                        </div>
+                        <div class="font-poppins">
+                            <h2 class="font-medium text-blue-500 text-xl md:text-base lg:text-xl">Details:</h2>
+                            <ul class="list-disc ml-7 text-xl md:text-base lg:text-xl">
+                                <li>Material: Coconut Coir Bristle</li>
+                                <li>Color: Gold Brown</li>
+                                <li>Pattern: Raw</li>
+                                <li>Length: 25-28 cm</li>
+                                <li>Moisture: 17%</li>
+                            </ul>
+                        </div>
+                        <div class="font-poppins">
+                            <h5 class="lg:text-base md:text-xs">Produced by CV. Adi Makmur Permata. Purwokerto, Central Java, Indonesia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row px-8 md:space-x-5 lg:space-x-7 items-center md:items-start">
+                    <img src="img/cocopeat.png" class="w-80 md:w-81" alt="">
+                    <div class="flex md:h-99 flex-col space-y-4 md:justify-between pt-5 max-w-2xl">
+                        <div class="font-poppins space-y-3">
+                            <h1 class="text-5xl text-lime-400 font-semibold">3.<span>COCOPEAT</span></h1>
+                            <p class="text-justify text-xl md:text-base lg:text-xl">Is an organic planting medium that replaces soil, made from coconut fiber which is processed into fine granules.Has many benefits,including pest resistance, high water absorption and enviromentally friendliness.</p>
+                        </div>
+                        <div class="font-poppins">
+                            <h2 class="font-medium text-blue-500 text-xl md:text-base lg:text-xl">Details:</h2>
+                            <ul class="list-disc ml-7 text-xl md:text-base lg:text-xl">
+                                <li>Material: Coconut Coir Bristle</li>
+                                <li>Color: Gold Brown</li>
+                                <li>Pattern: Raw</li>
+                                <li>Length: 25-28 cm</li>
+                                <li>Moisture: 17%</li>
+                            </ul>
+                        </div>
+                        <div class="font-poppins">
+                            <h5 class="lg:text-base md:text-xs">Produced by CV. Adi Makmur Permata. Purwokerto, Central Java, Indonesia</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Main>
+
+    <hr class="bg-black h-[0.16rem] my-20 w-full">
+
+    <footer>
+        <div class="bg-lime-100 py-9 flex flex-col items-center md:items-stretch md:flex-row lg:justify-center px-8 space-y-14 md:space-y-0 md:space-x-7">
+            <div class="font-poppins space-y-12">
+                <div class="text-start text-lime-700 text-5xl">
+                    <h1>Looking for Answer?</h1>
+                    <h1>Let Us Help with your Inquiries.</h1>
+                </div>
+                <div class="text-end text-lime-700 text-2xl">
+                    <h2>Seeking Product Insights? Reach Out</h2>
+                    <h2>Now for Accurate Information and</h2>
+                    <h2>Assistance. We're happy to support you.</h2>
+                </div>
+                <div class="flex flex-col items-start space-y-8">
+                    <div class="font-poppins">
+                        <h1 class="text-brown text-3xl">Email Address</h1>
+                        <h4 class="text-lime-700">business@cocoadi.com</h4>
+                    </div>
+                    <div class="font-poppins">
+                        <h1 class="text-brown text-3xl">Phone Number</h1>
+                        <h4 class="text-lime-700">+62 811 2522 817</h4>
+                    </div>
+                    <div class="font-poppins">
+                        <h1 class="text-brown text-3xl">Factory Address</h1>
+                        <h4 class="text-lime-700">Jalan Prof Mohammad Yamin No 280 Purwokerto Central Java Indonesia 53144</h4>
+                    </div>
+                </div>
+            </div>
+        
+                <div class="border rounded-lg bg-brown p-5 w-full md:w-96 h-auto">
+                    <h1 class="text-white text-3xl mb-11 font-poppins font-semibold">Contact Us</h1>
+                    <div>
+                        <form action="" class="flex flex-col space-y-11 text-white items-center">
+                            <input type="text" name="name" placeholder="Full Name" class="border-b bg-transparent w-full placeholder:text-white placeholder:font-poppins border-white focus:outline-none focus:border-green-400" required>
+                            <input type="email" name="email" placeholder="Email Address" class="border-b bg-transparent w-full placeholder:text-white placeholder:font-poppins border-white focus:outline-none focus:border-green-400" required>
+                            <input type="tel" name="number" placeholder="Phone Number" class="border-b bg-transparent w-full placeholder:text-white placeholder:font-poppins border-white focus:outline-none focus:border-green-400">
+                            <textarea name="message" placeholder="Message" id="" class="border bg-transparent w-full rounded-lg placeholder:text-white placeholder:font-poppins border-white placeholder:ml-3 focus:outline-none focus:border-green-400"></textarea>
+                            <input type="text" name="country" placeholder="Country" class="border-b bg-transparent w-full placeholder:text-white placeholder:font-poppins border-white focus:outline-none focus:border-green-400" required>
+                            <button class="bg-white text-lime-500 px-6 py-3 rounded-lg font-poppins text-xl">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+          
+        </div>
+        <div class="text-center w-full bg-hijau py-12">
+            <h1 class="text-white text-2xl md:text-4xl mb-6 font-poppins font-semibold">Find Out More on</h1>
+            <div class="flex justify-around">
+                <a href="https://www.tiktok.com" target="_blank" class="text-white hover:text-gray-300">
+                    <ion-icon name="logo-tiktok" class="text-5xl"></ion-icon>
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank" class="text-white hover:text-gray-300">
+                    <ion-icon name="logo-whatsapp" class="text-5xl"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="text-white hover:text-gray-300">
+                    <ion-icon name="logo-facebook" class="text-5xl"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white hover:text-gray-300">
+                    <ion-icon name="logo-instagram" class="text-5xl"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col-reverse md:flex-row px-8 sm:px-16 items-center md:justify-center">
+            <div class="flex flex-col">
+                <div class="flex space-x-4">
+                    <img src="img/logo.png" class="max-h-20" alt="">
+                    <div class="flex flex-col justify-center font-poppins">
+                        <h1 class="font-semibold text-blue-800">cocoadi</h1>
+                        <h2 class="font-medium text-blue-800">cv adi makmur permata</h2>
+                    </div>
+                </div>
+                <div class="flex space-x-5 md:space-x-12">
+                    <div class="font-poppins">
+                        <h3 class="font-medium text-blue-800 mb-2 text-center">Categories</h3>
+                        <ul class="list-none text-blue-700">
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Product</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="font-poppins">
+                        <h3 class="font-medium text-blue-800 mb-2 text-center">Useful Links</h3>
+                        <ul class="list-none text-blue-700">
+                            <li>Linktr.ee</li>
+                        </ul>
+                    </div>
+                    <div class="font-poppins">
+                        <h3 class="font-medium text-blue-800 mb-2 text-center">Our Office</h3>
+                        <ul class="list-none text-blue-700">
+                            <li>Mo-Sa: 08:00-17:00</li>
+                            <li>Su: closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </footer>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
