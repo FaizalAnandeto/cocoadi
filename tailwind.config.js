@@ -2,6 +2,16 @@
 module.exports = {
   content: ['./public/**/*.{html,js}'],
   theme: {
+    screens: {
+      'hps': '550px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1800px',
+      '4xl': '2035px',
+    },
     extend: {
       fontSize: {
         '4.5xl': '2.5rem'
@@ -28,6 +38,7 @@ module.exports = {
         '25': '6.2rem',
       },
       maxWidth: {
+        '85': '22.5rem',
         '97': '90rem',
       },
       colors: {
