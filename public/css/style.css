@@ -570,24 +570,12 @@ video {
   top: 0.5rem;
 }
 
-.top-48 {
-  top: 12rem;
+.top-40 {
+  top: 10rem;
 }
 
 .top-6 {
   top: 1.5rem;
-}
-
-.top-44 {
-  top: 11rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-40 {
-  top: 10rem;
 }
 
 .z-10 {
@@ -678,16 +666,16 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-48 {
   height: 12rem;
 }
 
 .h-8 {
   height: 2rem;
+}
+
+.h-9 {
+  height: 2.25rem;
 }
 
 .h-97 {
@@ -1085,10 +1073,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4\.5xl {
-  font-size: 2.5rem;
 }
 
 .text-4xl {
