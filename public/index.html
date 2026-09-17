@@ -15,10 +15,10 @@
 </head>
 <body class="m-0 p-0">
     <div id="home" class="w-full h-97 md:h-100  bg-no-repeat bg-center bg-cover" style="background-image: url('img/bg.png')">
-        <nav class="md:flex z-10 w-7/12 md:w-8/12 lg:w-7/12 md:justify-between bg-white shadow-xl mx-auto rounded-full relative top-6 py-2">
+        <nav id="site-nav" class="site-nav flex md:flex z-10 w-[calc(100%-2rem)] md:w-8/12 lg:w-7/12 md:justify-between bg-white/95 shadow-xl mx-auto rounded-full py-2 px-3 md:px-0">
             <div class="flex justify-between items-center">
                 <img src="img/title.png" class="content-center h-8 sm:h-10 md:h-12 lg:h-14">
-                <ion-icon name="menu-outline" onclick="Menu(this)" class="md:hidden block text-2xl sm:text-3xl mx-3 sm:mx-4 cursor-pointer"></ion-icon>
+                <ion-icon name="menu-outline" aria-label="Open navigation" onclick="Menu(this)" class="md:hidden block text-2xl sm:text-3xl mx-3 sm:mx-4 cursor-pointer"></ion-icon>
             </div>
             <h1 class="text-3xl md:text-4xl hidden md:block font-thin ">|</h1>
                 <div id="list" class="flex flex-col md:flex-row w-full md:w-auto bg-white md:bg-none md:static absolute top-2 z-[-1] md:z-auto items-center py-4 md:py-0 gap-y-2 md:gap-y-0 rounded-3xl space-x-0 md:space-x-3 lg:space-x-4 font-poppins text-xs sm:text-base md:mr-[0.625rem] lg:mr-4 xl:mr-6 md:text-base lg:text-lg opacity-0 md:opacity-100 transition-all ease-in duration-500">
@@ -28,15 +28,15 @@
                     <a href="#contact" class=" hover:text-lime-400">Contact Us</a>
                 </div>
         </nav>
-        <div class="text-white font-poppins relative top-40 md:top-48 left-5 lg:left-16 inline-block">
+        <div class="hero-copy text-white font-poppins relative top-40 md:top-48 left-5 lg:left-16 inline-block">
             <h1 class="text-6xl sm:text-8xl md:text-9xl font-semibold tracking-normal md:tracking-widest">COCOADI</h1>
             <h3 class="text-lg/6 sm:text-3xl md:text-4xl/tight lg:text-5xl font-medium">cv adi makmur permata</h3>
-            <p class="text-xs sm:text-xl md:text-2xl lg:text-3xl mt-5 md:mt-8 font-medium">Bring the goodness of nature into people's <br>lives by producing enviromentally friendly <br>coconut fiber products.</p>
+            <p class="text-xs sm:text-xl md:text-2xl lg:text-3xl mt-5 md:mt-8 font-medium">Bring the goodness of nature into people's <br>lives by producing environmentally friendly <br>coconut fiber products.</p>
             <button onclick="location.href='#product'" class="py-2 sm:py-3 md:py-4 text-base sm:text-xl md:text-3xl px-3 sm:px-5 md:px-6 rounded-full bg-lime-600 mt-5 md:mt-10">Find Your Products</button>
         </div>
     </div>
-    <Main>
-        <div class="flex flex-col mx-auto max-w-4xl lg:max-w-7xl" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="300">
+    <main>
+        <div class="about-section flex flex-col mx-auto max-w-4xl lg:max-w-7xl" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="300">
             <span class="flex space-x-4 px-0 md:px-4 mt-20 justify-center md:justify-normal">
                 <h1 class="font-poppins text-3xl hps:text-6xl md:text-7xl lg:text-8xl content-center">Get to Know Us</h1>
                 <img src="img/bia.png" class="w-12 sm:w-18 lg:w-20 xl:w-25 h-auto" alt="">
@@ -48,31 +48,33 @@
                         <video controls src="img/vid.mp4" class="px-14 md:px-0 w-full sm:w-97 md:w-80 lg:w-81 xl:w-83 h-auto mt-5 ml-0 md:ml-5 lg:ml-8 xl:ml-5 rounded-2xl"></video>
                     </div>
                     <div class="flex flex-col items-center space-y-7 md:space-y-9 lg:space-y-6 xl:space-y-28">
-                        <p class="text-justify w-full px-6 md:px-0 md:w-96 lg:w-97 xl:w-98 text-base lg:text-2xl font-poppins"><span class="ml-4">CV.</span> Adi Makmur Permata founded in 2024, located in Purwokerto Central Java Indonesia is a company engaged in processing coconut fiber. We produce processed coconut fiber product as  Cocobristle, Cocopeat, and Cocofiber under the Cocoadi Brand. Our processed products are superior products that use quality coconut fiber raw materials and have export specifications and international standardization. Supported by professional employee, we are commited to prioritizing customer satisfactionand maintaining product quality.</p>
+                        <p class="text-justify w-full px-6 md:px-0 md:w-96 lg:w-97 xl:w-98 text-base lg:text-2xl font-poppins"><span class="ml-4">CV.</span> Adi Makmur Permata, founded in 2024 and located in Purwokerto, Central Java, Indonesia, processes coconut fiber into Cocobristle, Cocopeat, and Cocofiber under the Cocoadi brand. Our products use quality raw materials, meet export specifications, and follow international standards. Supported by professional employees, we are committed to prioritizing customer satisfaction and maintaining product quality.</p>
                         <img src="img/pot.png" class="px-6 md:px-0 md:w-96 lg:w-97 xl:w-98 h-auto rounded-lg" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
-        <hr class="bg-black h-[0.16rem] my-20 w-full">
+        <div class="section-divider" aria-label="From nature to purpose">
+            <span>From nature to purpose</span>
+        </div>
 
-        <div class="flex flex-col space-y-20" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="250">
+        <div class="vision-section flex flex-col space-y-20" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="250">
             <div class="px-10">
                 <div class="flex justify-center items-center bg-center bg-no-repeat max-w-6xl mx-auto h-48 sm:h-60 md:h-72 lg:h-80 rounded-xl" style="background-image: url(img/bgovm.png);">
-                    <h1 class="text-white font-poppins font-semibold text-2xl sm:text-4xl md:text-6xl lg:text-8xl">Our Vision & Mision</h1>
+                    <h1 class="text-white font-poppins font-semibold text-2xl sm:text-4xl md:text-6xl lg:text-8xl">Our Vision & Mission</h1>
                 </div>
             </div>
             <div class="px-10 space-y-20">
                 <div class="flex flex-col md:flex-row space-y-5 space-x-0 md:space-x-11 items-center max-w-6xl mx-auto">
                     <h1 class="font-poppins text-7xl sm:text-8xl text-blue-700">Vision</h1>
-                    <p class="font-poppins text-base sm:text-xl text-justify">Bring the goodness of nature into people's lives by producing enviromentally friendly coconut fiber products.</p>
+                    <p class="font-poppins text-base sm:text-xl text-justify">Bring the goodness of nature into people's lives by producing environmentally friendly coconut fiber products.</p>
                 </div>
                 <div class="flex flex-col md:flex-row space-y-5 space-x-0 md:space-x-11 items-center max-w-6xl mx-auto">
                     <h1 class="font-poppins text-7xl sm:text-8xl text-lime-600">Mission</h1>
                     <ul class="font-poppins text-base sm:text-xl text-justify space-y-2 md:space-y-0 list-disc">
-                        <li class="">We prioritize quality and service in offering aunthentic coconut fiber products to customer.</li>
-                        <li class="">Through innovation and tecnology we always strive to produce processed coconut fiber products that are environmentally friendly and sustainable.</li>
+                        <li class="">We prioritize quality and service in offering authentic coconut fiber products to customers.</li>
+                        <li class="">Through innovation and technology, we strive to produce processed coconut fiber products that are environmentally friendly and sustainable.</li>
                         <li class="">Always prioritizes customer satisfaction when using processed coconut fiber products.</li>
                     </ul>
                 </div>
@@ -81,10 +83,10 @@
         <div class="bg-blue-500 text-white py-20 px-8 mt-20">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-4xl md:text-8xl font-bold mb-6">Our Philosophy</h1>
-                <p class="text-sm md:text-2xl">Like coconuts which have many benefits for human life, CV Adi Mahmur Permata always produces something useful and beneficial for themselves and others. Our philosophy is to create value and make a positive impact through our products and services.</p>
+                <p class="text-sm md:text-2xl">Like coconuts, which have many benefits for human life, CV Adi Makmur Permata always produces something useful and beneficial for itself and others. Our philosophy is to create value and make a positive impact through our products and services.</p>
             </div>
         </div>
-        <div class="px-10">
+        <div class="management-section px-10">
             <div class="max-w-7xl mx-auto">
                 <div class="flex flex-col mt-20 space-y-20">
                     <div class="flex items-center md:justify-between justify-center" data-aos="fade-right">
@@ -114,12 +116,12 @@
                 </div>
             </div>
         </div>
-        <div id="product" class="flex flex-col items-center">
+        <div id="product" class="product-section flex flex-col items-center">
             <div class="mt-20 mb-14 md:my-20" data-aos="zoom-in-up">
                 <h1 class="font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">What We Provide</h1>
             </div>
             <div class="flex flex-col space-y-14 md:space-y-11 w-full items-center">
-                <div class="flex flex-col md:flex-row px-8 md:space-x-5 lg:space-x-7 items-center md:items-start" data-aos="zoom-in-right">
+                <div class="product-card flex flex-col md:flex-row px-8 py-7 md:space-x-5 lg:space-x-7 items-center md:items-start max-w-5xl" data-aos="zoom-in-right">
                     <img src="img/cocobristle.png" class="w-80 md:w-81" alt="">
                     <div class="flex md:h-99 flex-col space-y-4 md:justify-between pt-5 max-w-2xl">
                         <div class="font-poppins space-y-3">
@@ -141,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row px-8 md:space-x-5 lg:space-x-7 items-center md:items-start" data-aos="zoom-in-right">
+                <div class="product-card flex flex-col md:flex-row px-8 py-7 md:space-x-5 lg:space-x-7 items-center md:items-start max-w-5xl" data-aos="zoom-in-right">
                     <img src="img/cocofiber.png" class="w-80 md:w-81" alt="">    
                     <div class="flex md:h-99 flex-col space-y-4 md:justify-between pt-5 max-w-2xl">
                         <div class="font-poppins space-y-3">
@@ -163,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row px-8 md:space-x-5 lg:space-x-7 items-center md:items-start" data-aos="zoom-in-right">
+                <div class="product-card flex flex-col md:flex-row px-8 py-7 md:space-x-5 lg:space-x-7 items-center md:items-start max-w-5xl" data-aos="zoom-in-right">
                     <img src="img/cocopeat.png" class="w-80 md:w-81" alt="">
                     <div class="flex md:h-99 flex-col space-y-4 md:justify-between pt-5 max-w-2xl">
                         <div class="font-poppins space-y-3">
@@ -187,12 +189,14 @@
                 </div>
             </div>
         </div>
-    </Main>
+    </main>
 
-    <hr class="bg-black h-[0.16rem] my-20 w-full">
+    <div class="section-divider" aria-label="From product to partnership">
+        <span>From product to partnership</span>
+    </div>
 
     <footer id="contact">
-        <div class="bg-lime-100 py-9 flex flex-col items-center md:items-stretch md:flex-row lg:justify-center px-8 space-y-14 md:space-y-0 md:space-x-7" data-aos="fade-up">
+        <div class="contact-section bg-lime-100 py-9 flex flex-col items-center md:items-stretch md:flex-row lg:justify-center px-8 space-y-14 md:space-y-0 md:space-x-7" data-aos="fade-up">
             <div class="font-poppins space-y-12">
                 <div class="text-start text-lime-700 text-5xl">
                     <h1>Looking for Answer?</h1>
@@ -307,7 +311,7 @@
       AOS.init();
     </script>
     <script>
-        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="dVhviLQdijA9mgZLk8qW3";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...chatbaseArguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(chatbaseArguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="dVhviLQdijA9mgZLk8qW3";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
         </script>
 </body>
 </html>
